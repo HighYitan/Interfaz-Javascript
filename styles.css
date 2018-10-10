@@ -50,17 +50,29 @@ ul {
 
 .todo-delete {
   margin: 10px;
+  font-weight: bold;
+  height:30px;
 }
 
 .todo-checkbox {
-  margin: 10px;
+  margin-right: 10px;
+  margin-left:10px;
+  width: 50px; /*Desired width*/
+  height: 50px; /*Desired height*/
+  vertical-align:bottom;
 }
 
 .todo-container {
   padding: 20px;
   border-bottom: 1px solid #333;
+  text-align:center;
 }
-
+.todo-text{
+  width:50%;
+  height:50px;
+  vertical-align:bottom;
+  font-size:175%;
+}
 .todo-container:first-of-type {
   border-top: 1px solid #333;
 }
